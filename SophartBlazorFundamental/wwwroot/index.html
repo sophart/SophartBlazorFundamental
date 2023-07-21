@@ -3,25 +3,54 @@
 
 <head>
     <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     <title>SophartBlazorFundamental</title>
     <base href="/" />
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="vendors/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="css/sb-admin-2.min.css" rel="stylesheet">
     <link href="css/app.css" rel="stylesheet" />
-    
+
     <!-- If you add any scoped CSS files, uncomment the following to load them
     <link href="SophartBlazorFundamental.styles.css" rel="stylesheet" /> -->
 </head>
 
-<body>
-    <div id="app">Loading...</div>
+<body id="page-top">
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+        <!--Sidebar-->
+        <div id="sidebar"></div>
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
 
-    <div id="blazor-error-ui">
-        An unhandled error has occurred.
-        <a href="" class="reload">Reload</a>
-        <a class="dismiss">🗙</a>
+            <!-- Main Content -->
+            <div id="content">
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+                    <div id="app">Loading...</div>
+                </div>
+
+                <div id="blazor-error-ui">
+                    An unhandled error has occurred.
+                    <a href="" class="reload">Reload</a>
+                    <a class="dismiss">🗙</a>
+                </div>
+            </div>
+        </div>
     </div>
-<script src="_framework/blazor.webassembly.js"></script>
-<script src="js/bootstrap.min.js"></script>
+
+    <script src="_framework/blazor.webassembly.js"></script>
+
+    <!-- Bootstrap core JavaScript-->
+    <script src="vendors/jquery/jquery.min.js"></script>
+    <script src="vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Core plugin JavaScript-->
+    <script src="vendors/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for all pages-->
+    <script src="js/sb-admin-2.min.js"></script>
 </body>
 
 </html>

@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Components\" />
+    <ProjectReference Include="..\SophartBlazorFundamental.Shared\SophartBlazorFundamental.Shared.csproj" />
   </ItemGroup>
 
 </Project>
