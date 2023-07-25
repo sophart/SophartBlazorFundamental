@@ -15,4 +15,8 @@
     <ProjectReference Include="..\SophartBlazorFundamental.Shared\SophartBlazorFundamental.Shared.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Pages\Authentication\" />
+  </ItemGroup>
+
 </Project>
